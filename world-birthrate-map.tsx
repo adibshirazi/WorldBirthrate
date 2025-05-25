@@ -716,13 +716,19 @@ export default function Component() {
         </div>
 
         <div
-          className={`p-4 text-center text-xs text-gray-600 transition-all duration-1000 ${isLoaded ? "animate-fadeInUp animation-delay-600" : "opacity-0"}`}
+          className={`p-4 text-center text-xs text-gray-600 transition-all duration-1000 ${
+            isLoaded ? "animate-fadeInUp animation-delay-600" : "opacity-0"
+          }`}
         >
           <p>Use mouse wheel to zoom, click and drag to pan the map</p>
           <p className="mt-1 font-medium">
             World average: 2.24 births per woman | Replacement level: 2.1 births per woman
           </p>
+          <p className="mt-4 text-gray-500">
+            © 2025 ASH. Licensed under the GNU Affero General Public License v3.0.
+          </p>
         </div>
+
       </div>
 
       <style jsx>{`
